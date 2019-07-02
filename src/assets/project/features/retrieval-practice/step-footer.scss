@@ -1,0 +1,17 @@
+.step-footer-container {
+  background-color: white;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+}
+
+.step-footer {
+  align-self: flex-end;
+}
+
+.step-navigate {
+  color: #007398;
+  margin-top: 10px;
+  display: flex;
+}

@@ -1,0 +1,157 @@
+{
+  "chapters": [
+    {
+      "id": 7,
+      "number": 7,
+      "name": "Radiographic Imaging",
+      "totalCards": 135,
+      "bookPages": "67-78",
+      "sections": [
+        {
+          "id": 0,
+          "name": "Image Production",
+          "knowledgeCards": 13,
+          "minuteRetrievalPractice": "",
+          "totalReviewQuestions": 13
+        },
+        {
+          "id": 1,
+          "name": "Image Receptor Systems",
+          "knowledgeCards": 14,
+          "minuteRetrievalPractice": 5,
+          "totalReviewQuestions": 2
+        },
+        {
+          "id": 2,
+          "name": "Image Quality Factors",
+          "knowledgeCards": 72,
+          "minuteRetrievalPractice": 15,
+          "totalReviewQuestions": 5
+        },
+        {
+          "id": 3,
+          "name": "Fluoroscopic Imaging",
+          "knowledgeCards": 13,
+          "minuteRetrievalPractice": 5,
+          "totalReviewQuestions": 2
+        }
+      ]
+    }
+  ],
+  "chapterSections": [
+    {
+      "id": 0,
+      "name": "Image Production",
+      "knowledgeCards": 13,
+      "minuteRetrievalPractice": "",
+      "totalReviewQuestions": 13,
+      "cards": [
+        {
+          "index": 1,
+          "question": {
+            "full": "What is an image receptor (IR)",
+            "type": "What is...",
+            "rest": "an image receptor (IR)"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1",
+          "bookPage": 62,
+          "willBeOnTest": false,
+          "isSelected": true
+        },
+        {
+          "index": 2,
+          "question": {
+            "full": "What is an image receptor (IR)",
+            "type": "What is...",
+            "rest": "an image receptor (IR)"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1",
+          "bookPage": 62,
+          "willBeOnTest": false,
+          "isSelected": true
+        },
+        {
+          "index": 3,
+          "question": {
+            "full": "What is an image receptor (IR) 3",
+            "type": "What is...",
+            "rest": "an image receptor (IR) 3"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.3",
+          "bookPage": 62,
+          "willBeOnTest": true,
+          "isSelected": false
+        },
+        {
+          "index": 4,
+          "question": {
+            "full": "What is an image receptor (IR) 3",
+            "type": "What are the...",
+            "rest": "four requirements for the production of x-rays?"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1",
+          "bookPage": 62,
+          "willBeOnTest": false,
+          "isSelected": true
+        },
+        {
+          "index": 5,
+          "question": {
+            "full": "What is an image receptor (IR) 3",
+            "type": "What is...",
+            "rest": "an image receptor(IR)?"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1",
+          "bookPage": 62,
+          "willBeOnTest": false,
+          "isSelected": true
+        },
+        {
+          "index": 6,
+          "question": {
+            "full": "What is an image receptor (IR) 3",
+            "type": "What is...",
+            "rest": "an image receptor(IR)?"
+          },
+          "answer": "A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1",
+          "bookPage": 62,
+          "willBeOnTest": false,
+          "isSelected": true
+        }
+      ],
+      "reviewQuestions": [
+        {
+          "questionPrompt": "<p> <p>Diabetes mellitus is a disorder of carbohydrate metabolism. What are the long-term consequences of diabetes mellitus?</p> </p>",
+          "questionChoices": {
+            "CHOICE_000": "A. The shift in insulin:glucagon balance leads to unopposed lipolysis and fatty acid oxidation in the liver ",
+            "CHOICE_001": "B. Plasma lipoproteins are raised due to excessive dietary fat ",
+            "CHOICE_002": "C. Macrovascular disease gives rise to peripheral neuropathy ",
+            "CHOICE_003": "D. Microvascular disease can cause peripheral vascular disease ",
+            "CHOICE_004": "E. Macrovascular disease gives rise to diabetic retinopathy "
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Image Receptor Systems",
+      "knowledgeCards": 14,
+      "minuteRetrievalPractice": 5,
+      "totalReviewQuestions": 2
+    },
+    {
+      "id": 2,
+      "name": "Image Quality Factors",
+      "knowledgeCards": 72,
+      "minuteRetrievalPractice": 15,
+      "totalReviewQuestions": 5
+    },
+    {
+      "id": 3,
+      "name": "Fluoroscopic Imaging",
+      "knowledgeCards": 13,
+      "minuteRetrievalPractice": 5,
+      "totalReviewQuestions": 2
+    }
+  ]
+}

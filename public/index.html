@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="static/css/styleguide-core.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <!--
@@ -33,6 +34,29 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+      
     -->
+    <script>
+      var getAppProfile = function() {
+        return 'test7';
+      };
+      var getLogLevel = function() {
+        return 'debug';
+      };
+      var getNewRelicBrowserConfig = function() {
+        return '{}';
+      };
+    </script>
+    <script type="text/javascript">
+      window._mfq = window._mfq || [];
+      (function() {
+        var mf = document.createElement('script');
+        mf.type = 'text/javascript';
+        mf.async = true;
+        mf.src = '//cdn.mouseflow.com/projects/263b86e5-9b73-49cd-9128-7b536ea216be.js';
+        document.getElementsByTagName('head')[0].appendChild(mf);
+      })();
+      window._mfq.push(['tag', getAppProfile()]);
+    </script>
   </body>
 </html>

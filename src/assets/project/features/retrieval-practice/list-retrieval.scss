@@ -1,0 +1,38 @@
+.list-retrieval {
+  background-color: #e7edea;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .list-retrieval {
+    grid-template-columns: none;
+    padding: 100px 0px;
+  }
+}
+
+.retrieval {
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  position: relative;
+  padding: 20px;
+}
+
+.retrieval-expand {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #007398;
+}
+
+.retrieval-question-rest {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+.retrieval-circle-selected {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}

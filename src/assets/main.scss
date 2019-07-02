@@ -1,0 +1,38 @@
+$path-to-els-core-logos: '~@els/els-component-footer-react/module/assets/images/';
+$path-to-els-core-fonts: '~@els/els-styleguide-core/fonts';
+@import '~@els/els-styleguide-core/scss/core';
+@import '~@els/els-styleguide-button/scss/component.button';
+@import '~@els/els-styleguide-card/scss/component.card';
+@import '~@els/els-styleguide-accordion/scss/component.accordion';
+@import '~@els/els-styleguide-divider/scss/component.divider';
+@import '~@els/els-styleguide-tab-group/scss/component.tab-group';
+@import '~@els/els-styleguide-badge/scss/component.badge';
+@import '~@els/els-styleguide-list/scss/component.list';
+@import '~@els/els-styleguide-menu/scss/component.menu';
+@import '~@els/els-styleguide-nav-group/scss/component.nav-group';
+@import '~@els/els-styleguide-link/scss/component.link';
+@import '~@els/els-styleguide-tooltip/scss/component.tooltip';
+@import '~@els/els-styleguide-form-field/scss/component.form-field';
+@import '~@els/els-styleguide-modal/scss/component.modal';
+@import '~@els/els-styleguide-footer/scss/component.footer';
+@import '~@els/els-styleguide-table/scss/component.table';
+@import '~@els/els-styleguide-toast/scss/component.toast';
+
+@import '~@els/els-component-assessment-react/module/assets/scss/main';
+@import '~@els/els-component-form-field-react/module/assets/scss/main';
+@import '~@els/els-component-data-visualization-react/module/assets/scss/main';
+@import '~@els/els-component-tag-group-react/module/assets/scss/main';
+@import '~@els/els-component-modal-react/module/assets/scss/main';
+@import '~@els/els-component-footer-react/module/assets/scss/main';
+@import '~@els/els-component-accordion-react/module/assets/scss/main';
+@import '~@els/els-component-tab-group-react/module/assets/scss/main';
+@import '~@els/els-component-button-react/module/assets/scss/main';
+@import '~@els/els-component-tooltip-react/module/assets/scss/main';
+@import '~@els/els-component-menu-react/module/assets/scss/main';
+@import '~@els/els-component-data-table-react/module/assets/scss/main';
+@import '~@els/els-component-progress-bar-react/module/assets/scss/main';
+@import '~@els/els-component-toast-react/module/assets/scss/main';
+
+@import '~@els/meded-ui-common-react/module/assets/scss/main';
+
+@import './project/index.scss';

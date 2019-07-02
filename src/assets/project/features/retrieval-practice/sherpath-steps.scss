@@ -1,0 +1,58 @@
+.steps-container {
+  display: flex;
+  justify-content: center;
+}
+
+.step {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #007398;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.--active {
+  color: #e9711c;
+
+  .step-circle {
+    border-color: #e9711c;
+  }
+}
+
+.step-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #007398;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.step-with-line {
+  display: flex;
+  flex-basis: 170px;
+}
+
+.step-line {
+  border-top: solid 1px #e2e2e2;
+  width: 60%;
+  margin: 15px -30% 0px;
+}
+
+.speaker-container {
+  display: flex;
+  align-items: center;
+  color: #007398;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+.step-speaker {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: #007398;
+}
