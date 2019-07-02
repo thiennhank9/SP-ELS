@@ -12,7 +12,7 @@ function SherpathSteps(props) {
 
         return (
           <div key={`SherpathSteps-index-${index}`} className="step-with-line">
-            <Step number={step.number} name={step.name} isActive={index === activeIndex} />
+            <Step number={index + 1} name={step} isActive={index === activeIndex} />
             {!isLastStep ? <div className="step-line" /> : null}
           </div>
         );

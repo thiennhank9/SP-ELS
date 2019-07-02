@@ -12,9 +12,9 @@ const history = createBrowserHistory();
 const AppRouter = () => (
   <Provider store={configStore(history)}>
     <ConnectedRouter history={history}>
+      <Route exact path="/" component={KnowledgeCardComponent} />
       <Route path="/knowledge-cards" component={KnowledgeCardComponent} />
       <Route path="/retrieval-practice" component={RetrievalPracticeComponent} />
-      {/* <Route exact component={KnowledgeCardComponent} /> */}
     </ConnectedRouter>
   </Provider>
 );

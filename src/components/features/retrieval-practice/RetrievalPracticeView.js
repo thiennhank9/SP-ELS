@@ -8,40 +8,15 @@ import RetrievalPracticeSection from './RetrievalPracticeSection';
 import ReviewQuestionsSection from './ReviewQuestionsSection';
 import StepFooter from './StepFooter';
 
-const CARDS = [
-  {
-    index: 1,
-    question: {
-      full: 'What is an image receptor (IR)',
-      type: 'What is...',
-      rest: 'an image receptor (IR)'
-    },
-    answer: 'A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.1',
-    bookPage: 62,
-    willBeOnTest: false
-  },
-  {
-    index: 2,
-    question: {
-      full: 'What is an image receptor (IR) 2',
-      type: 'What is...',
-      rest: 'an image receptor (IR) 2'
-    },
-    answer: 'A device called an image receptor (IR) intercepts the e-ray photons that are able to exit the patient.2',
-    bookPage: 62,
-    willBeOnTest: true
-  }
-];
-
 function RetrievalPracticeView(props) {
   const {
     chapter,
-    chapterSection: { cards = [], reviewQuestions = [] }
+    chapterSection: { id = 0, cards = [], reviewQuestions = [] }
   } = props;
 
   return (
     <div>
-      <HeaderRetrieval chapter={chapter} />
+      <HeaderRetrieval chapter={chapter} sectionNumber={id} />
       <div className="retrieval-body">
         <BlockSeperate bgColor="#8b9bc8" />
         <CardExplain />

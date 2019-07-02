@@ -12,7 +12,7 @@ class RetrievalPracticeComponent extends Component {
   }
 
   render() {
-    const { chapterIntroduction, chapterSection = {} } = this.props;
+    const { chapterIntroduction = {}, chapterSection = {} } = this.props;
     const viewProps = {
       chapter: chapterIntroduction,
       chapterSection

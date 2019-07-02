@@ -4,23 +4,15 @@ import { ELSIcon } from '../../common';
 import SherpathSteps from './SherpathSteps';
 import HeaderChapterTitle from '../../common/HeaderChapterTitle';
 
-const SHERPATH_STEPS = [
-  { number: 1, name: 'Image Production' },
-  { number: 2, name: 'Image Receptor Systems' },
-  { number: 3, name: 'Image Quality Factors' },
-  { number: 4, name: 'Fluoroscopic Imaging' }
-];
-
-const ACTIVE_INDEX = 0;
-
 function HeaderRetrieval(props) {
-  const { chapter } = props;
+  const { chapter, sectionNumber } = props;
+  const steps = chapter.sections.map((section) => section.name);
 
   return (
     <div className="c-header-navigation__container c-sticky">
       <HeaderChapterTitle chapter={chapter} />
       <div>
-        <SherpathSteps steps={SHERPATH_STEPS} activeIndex={ACTIVE_INDEX} />
+        <SherpathSteps steps={steps} activeIndex={sectionNumber} />
       </div>
       <div className="speaker-container">
         <ELSIcon name="speaker" customClass="step-speaker" />
